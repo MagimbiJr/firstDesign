@@ -64,7 +64,7 @@ html {
 @keyframes ZoomInUp {
     from {
         opacity: 0;
-        transform: translateY(30%);
+        transform: translateY(20%);
     }
     to {
         opacity: 1;
@@ -90,10 +90,6 @@ html {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
 }
 
 .navbar {
@@ -187,16 +183,6 @@ html {
     transition: transform .5s;
 }
 
-.side-drawer .brand {
-    margin-left: 10%;
-    margin-top: 10px;
-}
-
-.drawer-nav {
-    display: flex;
-    margin: 0 10%;
-}
-
 .side-drawer ul {
     padding: 20px 60px;
     list-style: none;
@@ -249,8 +235,6 @@ html {
 
 .buttons {
     display: flex;
-    animation-name: ZoomInUp;
-    animation-duration: 1s;
 }
 
 /* FEATURES SECTION STYLES */

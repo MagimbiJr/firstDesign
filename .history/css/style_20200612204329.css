@@ -187,15 +187,7 @@ html {
     transition: transform .5s;
 }
 
-.side-drawer .brand {
-    margin-left: 10%;
-    margin-top: 10px;
-}
-
-.drawer-nav {
-    display: flex;
-    margin: 0 10%;
-}
+.side
 
 .side-drawer ul {
     padding: 20px 60px;
