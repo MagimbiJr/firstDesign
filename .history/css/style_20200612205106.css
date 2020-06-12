@@ -179,7 +179,8 @@ html {
 .side-drawer {
     background-color: #e2e2e2;
     position: fixed;
-    top: 60px;
+    /* top: 60px; */
+    top: ;
     left: 0;
     width: 450px;
     /* display: none; */

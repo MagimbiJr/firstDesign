@@ -92,7 +92,7 @@ html {
     background-position: center;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 }
 
@@ -187,16 +187,6 @@ html {
     transition: transform .5s;
 }
 
-.side-drawer .brand {
-    margin-left: 10%;
-    margin-top: 10px;
-}
-
-.drawer-nav {
-    display: flex;
-    margin: 0 10%;
-}
-
 .side-drawer ul {
     padding: 20px 60px;
     list-style: none;
@@ -223,9 +213,9 @@ html {
     width: 60%;
     height: 80%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     align-items: left;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .content h2 {

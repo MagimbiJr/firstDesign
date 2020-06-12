@@ -91,9 +91,7 @@ html {
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
+    
 }
 
 .navbar {
@@ -185,16 +183,6 @@ html {
     /* display: none; */
     transform: translateX(-100%);
     transition: transform .5s;
-}
-
-.side-drawer .brand {
-    margin-left: 10%;
-    margin-top: 10px;
-}
-
-.drawer-nav {
-    display: flex;
-    margin: 0 10%;
 }
 
 .side-drawer ul {

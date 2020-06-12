@@ -157,6 +157,10 @@ html {
     font-size: 130%;
 }
 
+/* .nav-toggle-btn {
+    z-index: 100;
+} */
+
 .nav-toggle-btn button {
     border: none;
     background-color: transparent;
@@ -179,7 +183,8 @@ html {
 .side-drawer {
     background-color: #e2e2e2;
     position: fixed;
-    top: 60px;
+    /* top: 60px; */
+    top: 0;
     left: 0;
     width: 450px;
     /* display: none; */

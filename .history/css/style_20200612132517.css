@@ -50,35 +50,9 @@ html {
 
 /* ANIMATIONS */
 
-@keyframes ZoomInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-20%);
-     }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-     }
-}
-
-@keyframes ZoomInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30%);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes ZoomInCenter {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+@keyframes h1ZoomIn {
+    from { font-size: 0%; }
+    to { font-size: 270%; }
 }
 
 /* --- HERO AND NAVS STYLE SETTING --- */
@@ -90,10 +64,6 @@ html {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
 }
 
 .navbar {
@@ -187,16 +157,6 @@ html {
     transition: transform .5s;
 }
 
-.side-drawer .brand {
-    margin-left: 10%;
-    margin-top: 10px;
-}
-
-.drawer-nav {
-    display: flex;
-    margin: 0 10%;
-}
-
 .side-drawer ul {
     padding: 20px 60px;
     list-style: none;
@@ -233,8 +193,7 @@ html {
     font-weight: 400;
     padding-bottom: 20px;
     color: #ffffff;
-    animation-name: ZoomInDown;
-    animation-duration: .8s;
+    animationn: h1ZoomIn;
 }
 
 .content p {
@@ -243,14 +202,10 @@ html {
     letter-spacing: .6px;
     color: #c5c5c5;
     padding-bottom: 40px;
-    animation-name: ZoomInCenter;
-    animation-duration: 2s;
 }
 
 .buttons {
     display: flex;
-    animation-name: ZoomInUp;
-    animation-duration: 1s;
 }
 
 /* FEATURES SECTION STYLES */
