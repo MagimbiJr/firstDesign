@@ -1,0 +1,42 @@
+/* MAX-WIDTH 1024PX */
+
+@media (max-width: 1024px) {
+    .navs {
+        display: none;
+    }
+
+    .nav-toggle-btn button {
+        display: block;
+    }
+
+    .content {
+        width: 100%;
+        align-items: center;
+    }
+
+    .side-drawer {
+        width: 80%;
+    }
+
+    .top-para {
+        margin: 0 30px;
+    }
+}
+
+/* MAX-WIDTH 404PX */
+
+@media (max-width: 414px) {
+    .buttons {
+        flex-direction: column;
+    }
+
+    .buttons .btn {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .side-drawer {
+        width: 100%;
+    }
+}
+
